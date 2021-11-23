@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.content {
+  margin-left: 2rem;
+}
+
+.episode {
+  margin-top: 2rem;
+}
