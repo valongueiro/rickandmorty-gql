@@ -1,6 +1,6 @@
 import { Switch, Route } from "react-router-dom";
-import CharactersList from "./pages/CharactersList";
-import Character from "./pages/Character";
+import CharactersList from "./pages/CharactersList/CharactersList";
+import Character from "./pages/Character/Character";
 import "./App.css";
 
 function App() {

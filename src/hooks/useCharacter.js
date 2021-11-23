@@ -6,6 +6,7 @@ const GET_CHARACTER = gql`
       id
       name
       image
+      gender
       episode {
         name
         episode
@@ -17,7 +18,7 @@ const GET_CHARACTER = gql`
 export function useCharacter(id) {
   const { error, loading, data } = useQuery(GET_CHARACTER, {
     variables: {
-      id: id,
+      id,
     },
   });
 
